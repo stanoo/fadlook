@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A68774516BC1553004F77BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68774416BC1553004F77BE /* UIKit.framework */; };
+		0A68774716BC1553004F77BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68774616BC1553004F77BE /* Foundation.framework */; };
+		0A68774916BC1553004F77BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68774816BC1553004F77BE /* CoreGraphics.framework */; };
+		0A68774F16BC1553004F77BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A68774D16BC1553004F77BE /* InfoPlist.strings */; };
+		0A68775116BC1553004F77BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68775016BC1553004F77BE /* main.m */; };
+		0A68775516BC1553004F77BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68775416BC1553004F77BE /* AppDelegate.m */; };
+		0A68775716BC1553004F77BE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A68775616BC1553004F77BE /* Default.png */; };
+		0A68775916BC1553004F77BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A68775816BC1553004F77BE /* Default@2x.png */; };
+		0A68775B16BC1553004F77BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A68775A16BC1553004F77BE /* Default-568h@2x.png */; };
+		0A68775E16BC1553004F77BE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A68775C16BC1553004F77BE /* MainStoryboard_iPhone.storyboard */; };
+		0A68776116BC1553004F77BE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A68775F16BC1553004F77BE /* MainStoryboard_iPad.storyboard */; };
+		0A68776416BC1553004F77BE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68776316BC1553004F77BE /* MasterViewController.m */; };
+		0A68776716BC1553004F77BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68776616BC1553004F77BE /* DetailViewController.m */; };
+		0A68776F16BC1553004F77BE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68776E16BC1553004F77BE /* SenTestingKit.framework */; };
+		0A68777016BC1553004F77BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68774416BC1553004F77BE /* UIKit.framework */; };
+		0A68777116BC1553004F77BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A68774616BC1553004F77BE /* Foundation.framework */; };
+		0A68777916BC1553004F77BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A68777716BC1553004F77BE /* InfoPlist.strings */; };
+		0A68777C16BC1553004F77BE /* fadlookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68777B16BC1553004F77BE /* fadlookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A68777216BC1553004F77BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A68773916BC1553004F77BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A68774016BC1553004F77BE;
+			remoteInfo = fadlook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A68774116BC1553004F77BE /* fadlook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fadlook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A68774416BC1553004F77BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A68774616BC1553004F77BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A68774816BC1553004F77BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A68774C16BC1553004F77BE /* fadlook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fadlook-Info.plist"; sourceTree = "<group>"; };
+		0A68774E16BC1553004F77BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A68775016BC1553004F77BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A68775216BC1553004F77BE /* fadlook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fadlook-Prefix.pch"; sourceTree = "<group>"; };
+		0A68775316BC1553004F77BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A68775416BC1553004F77BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A68775616BC1553004F77BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A68775816BC1553004F77BE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A68775A16BC1553004F77BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A68775D16BC1553004F77BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0A68776016BC1553004F77BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0A68776216BC1553004F77BE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0A68776316BC1553004F77BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0A68776516BC1553004F77BE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0A68776616BC1553004F77BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0A68776D16BC1553004F77BE /* fadlookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fadlookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A68776E16BC1553004F77BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A68777616BC1553004F77BE /* fadlookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fadlookTests-Info.plist"; sourceTree = "<group>"; };
+		0A68777816BC1553004F77BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A68777A16BC1553004F77BE /* fadlookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fadlookTests.h; sourceTree = "<group>"; };
+		0A68777B16BC1553004F77BE /* fadlookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fadlookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A68773E16BC1553004F77BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68774516BC1553004F77BE /* UIKit.framework in Frameworks */,
+				0A68774716BC1553004F77BE /* Foundation.framework in Frameworks */,
+				0A68774916BC1553004F77BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A68776916BC1553004F77BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68776F16BC1553004F77BE /* SenTestingKit.framework in Frameworks */,
+				0A68777016BC1553004F77BE /* UIKit.framework in Frameworks */,
+				0A68777116BC1553004F77BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68773816BC1553004F77BE = {
+			isa = PBXGroup;
+			children = (
+				0A68774A16BC1553004F77BE /* fadlook */,
+				0A68777416BC1553004F77BE /* fadlookTests */,
+				0A68774316BC1553004F77BE /* Frameworks */,
+				0A68774216BC1553004F77BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A68774216BC1553004F77BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A68774116BC1553004F77BE /* fadlook.app */,
+				0A68776D16BC1553004F77BE /* fadlookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A68774316BC1553004F77BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68774416BC1553004F77BE /* UIKit.framework */,
+				0A68774616BC1553004F77BE /* Foundation.framework */,
+				0A68774816BC1553004F77BE /* CoreGraphics.framework */,
+				0A68776E16BC1553004F77BE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A68774A16BC1553004F77BE /* fadlook */ = {
+			isa = PBXGroup;
+			children = (
+				0A68775316BC1553004F77BE /* AppDelegate.h */,
+				0A68775416BC1553004F77BE /* AppDelegate.m */,
+				0A68775C16BC1553004F77BE /* MainStoryboard_iPhone.storyboard */,
+				0A68775F16BC1553004F77BE /* MainStoryboard_iPad.storyboard */,
+				0A68776216BC1553004F77BE /* MasterViewController.h */,
+				0A68776316BC1553004F77BE /* MasterViewController.m */,
+				0A68776516BC1553004F77BE /* DetailViewController.h */,
+				0A68776616BC1553004F77BE /* DetailViewController.m */,
+				0A68774B16BC1553004F77BE /* Supporting Files */,
+			);
+			path = fadlook;
+			sourceTree = "<group>";
+		};
+		0A68774B16BC1553004F77BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A68774C16BC1553004F77BE /* fadlook-Info.plist */,
+				0A68774D16BC1553004F77BE /* InfoPlist.strings */,
+				0A68775016BC1553004F77BE /* main.m */,
+				0A68775216BC1553004F77BE /* fadlook-Prefix.pch */,
+				0A68775616BC1553004F77BE /* Default.png */,
+				0A68775816BC1553004F77BE /* Default@2x.png */,
+				0A68775A16BC1553004F77BE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A68777416BC1553004F77BE /* fadlookTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A68777A16BC1553004F77BE /* fadlookTests.h */,
+				0A68777B16BC1553004F77BE /* fadlookTests.m */,
+				0A68777516BC1553004F77BE /* Supporting Files */,
+			);
+			path = fadlookTests;
+			sourceTree = "<group>";
+		};
+		0A68777516BC1553004F77BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A68777616BC1553004F77BE /* fadlookTests-Info.plist */,
+				0A68777716BC1553004F77BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A68774016BC1553004F77BE /* fadlook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A68777F16BC1553004F77BE /* Build configuration list for PBXNativeTarget "fadlook" */;
+			buildPhases = (
+				0A68773D16BC1553004F77BE /* Sources */,
+				0A68773E16BC1553004F77BE /* Frameworks */,
+				0A68773F16BC1553004F77BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fadlook;
+			productName = fadlook;
+			productReference = 0A68774116BC1553004F77BE /* fadlook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A68776C16BC1553004F77BE /* fadlookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A68778216BC1553004F77BE /* Build configuration list for PBXNativeTarget "fadlookTests" */;
+			buildPhases = (
+				0A68776816BC1553004F77BE /* Sources */,
+				0A68776916BC1553004F77BE /* Frameworks */,
+				0A68776A16BC1553004F77BE /* Resources */,
+				0A68776B16BC1553004F77BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A68777316BC1553004F77BE /* PBXTargetDependency */,
+			);
+			name = fadlookTests;
+			productName = fadlookTests;
+			productReference = 0A68776D16BC1553004F77BE /* fadlookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A68773916BC1553004F77BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stanoo Chang";
+			};
+			buildConfigurationList = 0A68773C16BC1553004F77BE /* Build configuration list for PBXProject "fadlook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A68773816BC1553004F77BE;
+			productRefGroup = 0A68774216BC1553004F77BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A68774016BC1553004F77BE /* fadlook */,
+				0A68776C16BC1553004F77BE /* fadlookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A68773F16BC1553004F77BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68774F16BC1553004F77BE /* InfoPlist.strings in Resources */,
+				0A68775716BC1553004F77BE /* Default.png in Resources */,
+				0A68775916BC1553004F77BE /* Default@2x.png in Resources */,
+				0A68775B16BC1553004F77BE /* Default-568h@2x.png in Resources */,
+				0A68775E16BC1553004F77BE /* MainStoryboard_iPhone.storyboard in Resources */,
+				0A68776116BC1553004F77BE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A68776A16BC1553004F77BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68777916BC1553004F77BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A68776B16BC1553004F77BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A68773D16BC1553004F77BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68775116BC1553004F77BE /* main.m in Sources */,
+				0A68775516BC1553004F77BE /* AppDelegate.m in Sources */,
+				0A68776416BC1553004F77BE /* MasterViewController.m in Sources */,
+				0A68776716BC1553004F77BE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A68776816BC1553004F77BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68777C16BC1553004F77BE /* fadlookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A68777316BC1553004F77BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A68774016BC1553004F77BE /* fadlook */;
+			targetProxy = 0A68777216BC1553004F77BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A68774D16BC1553004F77BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A68774E16BC1553004F77BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A68775C16BC1553004F77BE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A68775D16BC1553004F77BE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0A68775F16BC1553004F77BE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A68776016BC1553004F77BE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0A68777716BC1553004F77BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A68777816BC1553004F77BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A68777D16BC1553004F77BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A68777E16BC1553004F77BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A68778016BC1553004F77BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fadlook/fadlook-Prefix.pch";
+				INFOPLIST_FILE = "fadlook/fadlook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A68778116BC1553004F77BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fadlook/fadlook-Prefix.pch";
+				INFOPLIST_FILE = "fadlook/fadlook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A68778316BC1553004F77BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fadlook.app/fadlook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fadlook/fadlook-Prefix.pch";
+				INFOPLIST_FILE = "fadlookTests/fadlookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0A68778416BC1553004F77BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fadlook.app/fadlook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fadlook/fadlook-Prefix.pch";
+				INFOPLIST_FILE = "fadlookTests/fadlookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A68773C16BC1553004F77BE /* Build configuration list for PBXProject "fadlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68777D16BC1553004F77BE /* Debug */,
+				0A68777E16BC1553004F77BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A68777F16BC1553004F77BE /* Build configuration list for PBXNativeTarget "fadlook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68778016BC1553004F77BE /* Debug */,
+				0A68778116BC1553004F77BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A68778216BC1553004F77BE /* Build configuration list for PBXNativeTarget "fadlookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A68778316BC1553004F77BE /* Debug */,
+				0A68778416BC1553004F77BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A68773916BC1553004F77BE /* Project object */;
+}
